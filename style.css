@@ -33,6 +33,8 @@ body {
 }
 
 #input-panel {
+    display: flex;
+    flex-direction: column;
     margin-top: 50px;
 }
 
@@ -61,11 +63,12 @@ body {
 }
 .range-input input {
     -webkit-appearance: none;
+    margin-top: 20px;
     width: 200px;
     height: 2px;
     background-color: #e43f5a;
 
-    position: absolute;
+    /* position: absolute; */
     top: 50%;
 }
 .range-input input::-webkit-slider-thumb {
